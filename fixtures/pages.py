@@ -23,10 +23,11 @@ def chromium_page(playwright: Playwright, settings: Settings) -> Page:
     page = context.new_page()
     yield page
 
-    context.tracing.stop(path=settings.tracing_dir.joinpath(f'{uuid.uuid4()}.zip'))
+    tracing_file = settings.tracing_dir.joinpath(f'{uuid.uuid4()}.zip')
+    context.tracing.stop(path=tracing_file)
     browser.close()
 
-    allure.attach.file(settings.tracing_dir.joinpath(f'{uuid.uuid4()}.zip'), name='trace', extension='zip')
+    allure.attach.file(tracing_file, name='trace', extension='zip')
     allure.attach.file(page.video.path(), name='video', attachment_type=allure.attachment_type.WEBM)
 
 
