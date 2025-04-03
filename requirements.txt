@@ -1,0 +1,6 @@
+allure-pytest==2.13.5
+playwright==1.51.0
+pydantic==2.11.2
+pydantic-settings==2.8.1
+pytest==8.3.5
+pytest-playwright==0.7.0
