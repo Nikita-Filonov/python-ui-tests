@@ -1,0 +1,9 @@
+.idea
+
+.venv
+__pycache__
+
+videos
+tracing
+allure-results
+allure-report
