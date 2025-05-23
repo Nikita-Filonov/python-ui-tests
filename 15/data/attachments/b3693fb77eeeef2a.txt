@@ -1,0 +1,64 @@
+INFO     BASE_PAGE:base_page.py:19 Opening the url "AppRoute.REGISTRATION"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=registration-form-email-input" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that input "Email" is visible
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=registration-form-email-input" at index "0"
+INFO     INPUT:input.py:31 Checking that input "Email" has a value ""
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=registration-form-username-input" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that input "Username" is visible
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=registration-form-username-input" at index "0"
+INFO     INPUT:input.py:31 Checking that input "Username" has a value ""
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=registration-form-password-input" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that input "Password" is visible
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=registration-form-password-input" at index "0"
+INFO     INPUT:input.py:31 Checking that input "Password" has a value ""
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=registration-form-email-input" at index "0"
+INFO     INPUT:input.py:23 Fill input "Email" to value "user@example.com"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=registration-form-email-input" at index "0"
+INFO     INPUT:input.py:31 Checking that input "Email" has a value "user@example.com"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=registration-form-username-input" at index "0"
+INFO     INPUT:input.py:23 Fill input "Username" to value "Playwright"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=registration-form-username-input" at index "0"
+INFO     INPUT:input.py:31 Checking that input "Username" has a value "Playwright"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=registration-form-password-input" at index "0"
+INFO     INPUT:input.py:23 Fill input "Password" to value "qwerty"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=registration-form-password-input" at index "0"
+INFO     INPUT:input.py:31 Checking that input "Password" has a value "qwerty"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=registration-page-registration-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:32 Clicking button "Registration"
+INFO     BASE_PAGE:base_page.py:33 Checking that current url matches pattern ".*/#/dashboard"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=navigation-navbar-app-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that text "App title" is visible
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=navigation-navbar-app-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:48 Checking that text "App title" has text "UI Course"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=navigation-navbar-welcome-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that text "Welcome title" is visible
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=navigation-navbar-welcome-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:48 Checking that text "Welcome title" has text "Welcome, Playwright!"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=dashboard-toolbar-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that text "Dashboard" is visible
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=dashboard-toolbar-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:48 Checking that text "Dashboard" has text "Dashboard"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=scores-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that text "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=scores-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:48 Checking that text "Title" has text "Scores"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=scores-scatter-chart" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that image "Chart" is visible
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=courses-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that text "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=courses-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:48 Checking that text "Title" has text "Courses"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=courses-pie-chart" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that image "Chart" is visible
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=students-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that text "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=students-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:48 Checking that text "Title" has text "Students"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=students-bar-chart" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that image "Chart" is visible
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=activities-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that text "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=activities-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:48 Checking that text "Title" has text "Activities"
+INFO     BASE_ELEMENT:base_element.py:24 Getting locator with "data-testid=activities-line-chart" at index "0"
+INFO     BASE_ELEMENT:base_element.py:40 Checking that image "Chart" is visible
