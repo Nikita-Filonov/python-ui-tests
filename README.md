@@ -41,7 +41,7 @@ Ensure that you have the following installed on your system:
 - pip (Python package manager)
 - Git
 
-## Installation
+### Installation
 
 Clone the repository and navigate to the project directory:
 
