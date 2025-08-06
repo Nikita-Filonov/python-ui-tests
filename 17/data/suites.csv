@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1831","Successful registration","tests","Wed Aug 06 19:03:36 GMT 2025","passed","Wed Aug 06 19:03:38 GMT 2025","TestRegistration","test_registration","",""
